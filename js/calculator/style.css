@@ -1,0 +1,95 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background setup */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+/* Main container for the calculator */
+div {
+    margin: 10px;
+}
+
+/* Style for the display */
+.input {
+    width: 320px;
+    height: 60px;
+    text-align: right;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #222;
+    color: white;
+}
+
+/* Button style */
+input[type="button"] {
+    width: 70px;
+    height: 70px;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f55252;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+input[type="button"]:hover {
+    background-color: #d1d1d1;
+}
+
+/* Style for operator buttons (+, -, *, etc.) */
+.operator {
+    background-color: #ff9800;
+    color: white;
+}
+
+.operator:hover {
+    background-color: #e68900;
+}
+
+/* Style for the 'clean' button */
+.clean {
+    background-color: #f44336;
+    color: white;
+}
+
+.clean:hover {
+    background-color: #e31e1e;
+}
+
+/* Style for the 'equals' button */
+.eq {
+    background-color: #4caf50;
+    color: white;
+    width: 150px; /* Makes the equals button wider */
+}
+
+.eq:hover {
+    background-color: #45a049;
+}
+
+/* Style for number buttons */
+.adad {
+    background-color: #2196f3;
+    color: white;
+}
+
+.adad:hover {
+    background-color: #1976d2;
+}

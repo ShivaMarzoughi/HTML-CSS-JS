@@ -1,0 +1,208 @@
+@font-face {
+    font-family:'shabnam';
+    src: url('../fonts/Shabnam-FD.woff2') format('woff2');
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    direction: rtl;
+}
+body{
+    font-family:'shabnam';
+    color: #434343;
+}
+
+
+/* header ------------------------ */
+.message{
+    background-color: #A72F3B;
+    padding: 7px;
+    height: 40px;
+    /* width: 1440px;      چرا این سایزه */
+    align-items: center;
+    text-align: center;
+    color: #ffff;
+}
+.my_header{
+    margin-left: 108px;
+    margin-right: 108px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 104px;
+    padding-top: 26.62px;
+    padding-bottom: 26.62px;
+
+}
+.logo{
+    height: 50.77px;
+    width: 188.91px;
+    display: flex;
+    /* margin-right: 108px;      چون با فایل فیگما جور در نیامد */
+}
+.search_box{
+    /* width: 596px;
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 16px; */
+    /* border: 1px solid #D6D6D6; */
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: space-between; */
+    /* روش هوش مصنوعی */
+    position: relative; /* تنظیم موقعیت برای container */
+    
+}
+.search_box input{
+    width: 596px;
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 16px;
+    border: 1px solid #D6D6D6;
+    /* روش هوش مصنوعی */
+    padding-left: 30px; /* فضای خالی برای آیکن */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+.search_box input::placeholder{
+    font-family: 'shabnam';
+    color: #A72F3B;
+    font-size: 14px;
+}
+/* روش هوش مصنوعی */
+.search_box input:focus {
+    border-color: #A72F3B;  /* تغییر رنگ بوردر به آبی وقتی اینپوت فاکوس می‌شود */
+    outline: none;  /* حذف خط حاشیه پیش‌فرض مرورگر */
+}
+.icon_search{
+    /* کلا روش هوش مصنوعی */
+    position: absolute;
+    left: 24px; /* موقعیت آیکن در سمت چپ */
+    top: 50%;
+    transform: translateY(-50%); /* وسط‌چین عمودی آیکن */
+}
+
+.sign_inup{
+    height: 40px;
+    /* margin-left: 118px;    با فایل فیگما جور در نیامد */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap:16px ;
+
+}
+.signin{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+.shopping{
+    /* width:117px
+    padding: 6px 22.5px; */
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+
+/* login form ------------------------------*/
+.login_page{
+    display: flex;
+    gap: 128px;
+
+}
+.form{
+    padding:71px 82px  ;
+    margin-right: 108px;
+    width: 496px;
+    height: 920;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    
+}
+.logim_form{
+    width: 50%;
+    display: flex;
+}
+.logim_form span h1{
+    font-size: 24px;
+    margin-bottom: 85px;
+
+}
+.welcome_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_form{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+.form_input1{
+    margin-bottom: 24px;
+    height: 40px;
+    width: 288px;
+    border-radius: 8px;
+    border: 1px solid #D6D6D6;
+}
+.name_form{
+    display: block;
+    text-align: right;
+    color: #CBCBCB;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.first_input{
+    margin-bottom: 24px;
+}
+.form_input2{
+    height: 40px;
+    width: 288px;
+    border-radius: 8px;
+    border: 1px solid #D6D6D6;
+}
+.forget_pass{
+    width: 288px;
+    text-align: left;
+    font-size: 10px;
+    color: #3C8F7C;
+    margin-bottom: 22px;
+
+}
+.text_gh{
+    font-size: 10px;
+    text-align: center;
+    
+}
+.rules{
+    font-size: 10px;
+    margin-bottom: 32px;
+}
+.signin_form{
+    font-family: 'shabnam';
+    border: none;
+    padding: 8px 104px;
+    border-radius: 8px;
+    background-color:#A72F3B ;
+    font-size: 14px;
+    color: #ffff;
+}
+.login_img{
+    margin-top: 100px;
+    margin-left: 108px;
+    width: 500px;
+    height: 486px;
+}
+.login_photo{
+    width: 100%;
+}

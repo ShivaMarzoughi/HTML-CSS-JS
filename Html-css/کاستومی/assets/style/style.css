@@ -1,0 +1,243 @@
+@font-face {
+    font-family:'shabnam';
+    src: url('../fonts/Shabnam-FD.woff2') format('woff2');
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    direction: rtl;
+}
+body{
+    font-family:'shabnam';
+    color: #434343;
+}
+
+
+/* header ------------------------ */
+.message{
+    background-color: #A72F3B;
+    padding: 7px;
+    height: 40px;
+    /* width: 1440px;      چرا این سایزه */
+    align-items: center;
+    text-align: center;
+    color: #ffff;
+}
+.my_header{
+    margin-left: 108px;
+    margin-right: 108px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 104px;
+    padding-top: 26.62px;
+    padding-bottom: 26.62px;
+
+}
+.logo{
+    height: 50.77px;
+    width: 188.91px;
+    display: flex;
+    /* margin-right: 108px;      چون با فایل فیگما جور در نیامد */
+}
+.search_box{
+    /* width: 596px;
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 16px; */
+    /* border: 1px solid #D6D6D6; */
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: space-between; */
+    /* روش هوش مصنوعی */
+    position: relative; /* تنظیم موقعیت برای container */
+    
+}
+.search_box input{
+    width: 596px;
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 16px;
+    border: 1px solid #D6D6D6;
+    /* روش هوش مصنوعی */
+    padding-left: 30px; /* فضای خالی برای آیکن */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+.search_box input::placeholder{
+    font-family: 'shabnam';
+    color: #A72F3B;
+    font-size: 14px;
+}
+/* روش هوش مصنوعی */
+.search_box input:focus {
+    border-color: #A72F3B;  /* تغییر رنگ بوردر به آبی وقتی اینپوت فاکوس می‌شود */
+    outline: none;  /* حذف خط حاشیه پیش‌فرض مرورگر */
+  }
+.icon_search{
+    /* کلا روش هوش مصنوعی */
+    position: absolute;
+    left: 24px; /* موقعیت آیکن در سمت چپ */
+    top: 50%;
+    transform: translateY(-50%); /* وسط‌چین عمودی آیکن */
+}
+
+.sign_inup{
+    height: 40px;
+    /* margin-left: 118px;    با فایل فیگما جور در نیامد */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap:16px ;
+
+}
+.signin{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+.shopping{
+    /* width:117px
+    padding: 6px 22.5px; */
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* meni items---------------------------------- */
+.meno{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 108px;
+    margin-left: 108px;
+    margin-bottom: 40px;
+}
+.meno_btn button{
+    font-family:'shabnam' ;
+    background-color: #A72F3B;
+    color: #ffff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    border: none;
+    gap: 4px;
+    padding: 12px 19px;
+}
+.meno_items{
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.meno_items span{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+ /* banner-------------------------------------------------- */
+.banner{
+    background-color: #EDD5D8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 108px;
+    margin-left: 108px;
+    margin-bottom: 40px;
+    border-radius: 16px;
+}
+.banner_text{
+    margin-right: 72px;
+    width: 384px;
+    text-align:justify;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.btn1{
+    margin-top: 57px;
+    font-family: 'shabnam';
+    width: 184px;
+    height: 48px;
+    padding: 12px 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:4px ;
+    border-radius: 8px;
+    border: none;
+    background-color: #A72F3B;
+    color: #ffff;
+}
+.banner_img{
+    width: 854px;
+    height: 404.41;
+    margin-left: 51px;
+}
+.bn_img{
+    width: 100%;
+}
+
+/* category --------------------------------------------------------------- */
+.category{
+    margin-right: 108px;
+    margin-left: 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 21px;
+}
+.category_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    
+}
+.category span{
+    font-size: 24px;
+    font-weight: bold;
+}
+.category hr{
+    border: 1px solid #D6D6D6; width:1010px; 
+
+}
+
+/* categiry cards ---------------------------------------------------------------------------*/
+.categoty_cards{
+    margin-left:108px ;
+    margin-right: 108px;
+    margin-bottom: 40px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.categoty_card{
+    width: 184px;
+    height: 128px;
+    padding: 8px;
+    border: 1px solid #D6D6D6;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.categoty_card span{
+    width: 184px;
+    font-size: 14px;
+    text-align: center;
+
+}
+.categoty_card img{
+    width: 168px;
+    height: 79px;
+}

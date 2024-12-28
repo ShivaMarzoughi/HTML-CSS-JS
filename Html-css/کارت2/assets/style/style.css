@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family:'Rubik-Bold';
+    src: url('../fonts/Rubik-Bold.ttf');
+}
+@font-face {
+    font-family:'Rubik-Regular';
+    src: url('../fonts/Rubik-Regular.ttf');
+}
+body{
+    background-color: #f5d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ارتفاع صفحه 100% ارتفاع پنجره مرورگر */
+}
+.card{
+    background-color: #fff;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px;
+    width: 350px;
+    height: 490px;
+    padding: 20px;
+    border-radius: 10px;    ;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.card-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.image img{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.text-learning span{
+    font-family: 'Rubik-Bold';
+    background-color: #f5d04e;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-weight: bold;
+    font-size: small;
+}
+.text-published span{
+    font-family: 'Rubik-Regular';
+    font-size: small;
+    font-weight: bold;
+    margin-top: -1px;
+    color: rgb(34, 34, 34);
+}
+.card-items h1{
+    font-family: 'Rubik-Bold';
+
+}
+.card-items p{
+    font-family: 'Rubik-Regular';
+    color: rgb(84, 84, 84);
+    font-size: small;
+}
+.img-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.img-text span{
+    font-family: 'Rubik-Bold';
+    font-size: smaller;
+}
+.img{
+    width: 50px;
+}
+.img img{
+    width: 100%;
+    border-radius: 50%;
+}
